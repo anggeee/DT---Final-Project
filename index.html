@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="bgimg">
+        <div class="caption" data-aos="fade-right" data-aos-duration="1500">
+            <span class="fname">Angelica</span>
+            <br>
+            <span class="lname">Demagante</span>
+        </div>
+
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <li class="nav-link nav-link-logo"><a href="index.html">amd.</a></li>
+            <li class="nav-link"><a href="#profile">Profile</a></li>
+            <li class="nav-link"><a href="#project">Projects</a></li>
+            <li class="nav-link"><a href="#footer">Contact</a></li> 
+        </div>
+
+        <!-- <div class="social-media-links">
+          <a href="https://web.facebook.com/angelica.demagante" target="_blank">
+            <img src="images/Facebook logo.png" alt="Facebook">
+          </a>
+          <img src="images/Instagram logo.png" alt="Instagram" id="insta_icon">
+          <img src="images/LinkedIn.png" alt="LinkedIn" id="link-icon">
+        </div> -->
+
+        <!-- ARROW CLASS -->
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+        <!-- PROFILE -->
+        <div class="container-profile" id="profile" data-aos="fade-up" data-aos-duration="3000">
+            <div class="profile-content" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+                <h1 class="top">A FEW WORDS ABOUT ME</h1>
+                <div class="profile-desc">
+                    <p class="desc">Hi, I'm Angelica I'm currently in my last year studying BS Information Technology. <br> Recently I'm into making websites and UI design hoping it would be the path <br> I would be taking in the future and I'm also looking forward to enhancing my skill <br> so that I can be prepared for my future endeavor.</p>
+                </div>
+            </div>
+
+            <!-- CAROUSEL -->
+            <div class="container max-height d-flex align-items-center"> 
+                <div id="carouselExampleCaptions" class="carousel  carousel-dark slide" data-bs-interval="3000" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/img1.jpg" alt="Image 1" class="d-block w-100 h-auto">
+                      </div>**
+                      <div class="carousel-item">
+                        <img src="images/img2.jpg" alt="Image 2" class="d-block w-100 h-auto">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/img3.jpg" alt="Image 3" class="d-block w-100 h-auto">
+                      </div>
+                    </div> 
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+              </div>
+        </div>
+        
+        <!-- PROJECTS -->
+        <div class="projcontainer" id="project" data-aos="fade-right" data-aos-duration="1500">
+          <div class="projcontent">
+            <h1 class="projhead">Project</h1>
+            <p class="projsupport">recent works — This what I've been working on for the past months. This for the development of the capstone project that we are trying to develop. <br> It is POS system with mobile monitoring application that will be covered programming languages such as Java and C#.</p>
+          </div>
+
+          <div class="proj1-img-container" data-aos="fade-up" data-aos-duration="1500">
+            <img class="image_1" src="images/pp1.jpg" alt="This project 1" id="proj_1">
+            <div class="overlay_1 overlay_1--blur">
+              <p class="text1">UI Design — <br> Mobile monitoring app <br> for hardware shop </p>  
+              </div>
+            </div>
+
+            <div class="proj2-img-container" data-aos="fade-up" data-aos-duration="1500">
+              <img class="image_2"src="images/pp2.jpg" alt="This project 2" id="proj_2">
+              <div class="overlay_2 overlay_2--blur">
+                <p class="text2">System Development  — <br> Point of sales system</p>
+              </div>
+            </div>
+          </div>
+
+        <!-- FOOTER -->
+        <div class="footer" id="footer">
+          <div class="footerText" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="mainText">Let's work together.</h1>
+            <p class="descText">Stay connected with me through my social media accounts! Let's collaborate <br> and
+              make something out of the box! See you  .</p>
+          </div>
+          <div class="image-footer" data-aos="fade-right" data-aos-duration="1500">
+            <a href="https://web.facebook.com/angelica.demagante" target="_blank">
+              <img src="images/Facebook logo.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/____angge/" target="_blank">
+              <img src="images/Instagram logo.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/anggeee" target="_blank">
+              <img src="images/GitHub.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/angelica-demagante-0321861aa/" target="_blank">
+              <img src="images/LinkedIn.png" alt="LinkedIn">
+            </a>
+          </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
